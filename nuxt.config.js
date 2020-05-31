@@ -6,9 +6,6 @@ const routerBase = process.env.USE_SUBFOLDER === "true" ? {
 
 module.exports = {
   ...routerBase,
-  /*
-  ** Headers of the page
-  */
   head: {
     title: 'simple-vue-tensorflow',
     meta: [
