@@ -17,12 +17,12 @@
 import AppLogo from "~/components/AppLogo.vue";
 import TensorflowExample from "~/components/TensorflowExample.vue";
 
-export default Vue.extend({
+export default {
   components: {
     AppLogo,
     TensorflowExample
   }
-});
+};
 </script>
 
 <style>
