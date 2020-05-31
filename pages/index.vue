@@ -16,13 +16,17 @@
 <script>
 import AppLogo from "~/components/AppLogo.vue";
 import TensorflowExample from "~/components/TensorflowExample.vue";
+import Vue from "Vue";
 
-export default {
+export default Vue.extend({
   components: {
     AppLogo,
     TensorflowExample
+  },
+  fetch({ redirect }) {
+    redirect(301, "public");
   }
-};
+});
 </script>
 
 <style>
