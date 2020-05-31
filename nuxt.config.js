@@ -1,6 +1,6 @@
 const routerBase = process.env.USE_SUBFOLDER === "true" ? {
   router:  {
-    base: "/public/"
+    base: "/vue-tensor/"
   }
 } : {}
 
@@ -44,7 +44,7 @@ module.exports = {
     }
   },
   generate: {
-    dir: "public"
+    dir: "vue-tensor"
   }
 }
 
